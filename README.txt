@@ -1,1 +1,1 @@
-Message board built with MongoDB and the Express framework. Uses the EJS template engine for rendering server-side HTML pages.
+Message board built with MongoDB and the Express framework. Uses the EJS template engine for rendering server-side HTML pages. Please go to the website and drop a message to let me know you've viewed my project!
