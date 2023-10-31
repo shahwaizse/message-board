@@ -1,1 +1,1 @@
-something in the wayyyyyyyyyyyyyyy wOOOOOoooooooOOOOOOooooo
+Message board built with MongoDB and the Express framework. Uses the EJS template engine for rendering server-side HTML pages.

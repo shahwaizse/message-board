@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      .message {
+        margin-bottom: 2vh;
+        background-color: whitesmoke;
+        padding: 10px;
+        min-width: 50vh;
+        max-width: fit-content;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <% messages.forEach((message) => { %>
+      <div class="message">
+        <div class="text"><%= message.message %></div>
+        <div class="user">by: <%= message.name %></div>
+        <div class="added"><%= message.date.toDateString() %></div>
+      </div>
+    <% }); %>
+    <a href="/new">New Message</a>
+  </body>
+</html>
